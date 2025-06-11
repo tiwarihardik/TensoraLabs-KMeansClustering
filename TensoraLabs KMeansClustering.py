@@ -8,7 +8,7 @@ import seaborn as sns
 
 
 st.title('TensoraLabs - KMeans Clustering')
-st.write('Where ideas are built. Upload your dataset, select features, and perform KMeans clustering.')
+st.write('Upload your dataset, select features, and perform KMeans clustering.')
 
 
 if 'model' not in st.session_state:
